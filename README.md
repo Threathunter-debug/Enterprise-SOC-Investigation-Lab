@@ -75,22 +75,23 @@ This investigation reinforced the importance of validating authentication anomal
 ## Screenshots
 
 ### QRadar Offense Overview
-![QRadar](investigation-notes/screenshots/01-qradar-offense-overview.png.png)
+![QRadar](investigation-notes/screenshots/qradar-offense-overview.png)
 
 ### QRadar Event Correlation
-![QRadar Correlation](investigation-notes/screenshots/02-qradar-event-correlation.png.png)
+![QRadar Correlation](investigation-notes/screenshots/qradar-event-correlation.png)
 
 ### CrowdStrike Validation
-![CrowdStrike](investigation-notes/screenshots/03-crowdstrike-service-account-search.png.png)
+![CrowdStrike](investigation-notes/screenshots/crowdstrike-validation.png)
 
 ### Tanium Endpoint Search
-![Tanium](investigation-notes/screenshots/05-tanium-endpoint-search.png.png)
+![Tanium](investigation-notes/screenshots/tanium-endpoint-search.png)
 
 ### Infoblox IP Search
-![Infoblox](investigation-notes/screenshots/06-infoblox-ip-search.png.png)
+![Infoblox](investigation-notes/screenshots/infoblox-ip-search.png)
 
 ### Infoblox Network Correlation
-![Infoblox Correlation](investigation-notes/screenshots/07-infoblox-network-correlation.png.png)
+![Infoblox Correlation](investigation-notes/screenshots/infoblox-network-correlation.png)
+
 
 ## MITRE ATT&CK Mapping
 
