@@ -32,7 +32,7 @@ The objective was to determine whether repeated authentication failures were ass
 ### Findings
 Authentication failures were observed across multiple internal systems and appeared consistent with automated service account validation behavior rather than malicious login attempts.
 
-![QRadar Offense Overview](screenshots/01-qradar-offense-overview.png)
+![QRadar Offense Overview](screenshots/01-qradar-offense-overview.png.png)
 
 ---
 
@@ -46,7 +46,7 @@ Authentication failures were observed across multiple internal systems and appea
 ### Findings
 No evidence of brute-force behavior, privilege escalation, or suspicious authentication anomalies was identified.
 
-![QRadar Event Correlation](screenshots/02-qradar-event-correlation.png)
+![QRadar Event Correlation](screenshots/02-qradar-event-correlation.png.png)
 
 ---
 
@@ -60,7 +60,7 @@ No evidence of brute-force behavior, privilege escalation, or suspicious authent
 ### Findings
 No malicious endpoint activity or suspicious execution behavior was identified during endpoint validation.
 
-![CrowdStrike Validation](screenshots/03-crowdstrike-service-account-search.png)
+![CrowdStrike Validation](screenshots/03-crowdstrike-service-account-search.png.png)
 
 ---
 
@@ -74,7 +74,7 @@ No malicious endpoint activity or suspicious execution behavior was identified d
 ### Findings
 The endpoint was successfully validated within the enterprise environment with no evidence of suspicious artifacts or persistence mechanisms.
 
-![Tanium Endpoint Validation](screenshots/04-tanium-endpoint-search.png)
+![Tanium Endpoint Validation](screenshots/04-tanium-endpoint-search.png.png)
 
 ---
 
@@ -88,7 +88,7 @@ The endpoint was successfully validated within the enterprise environment with n
 ### Findings
 The IP address was confirmed as internally owned infrastructure associated with enterprise network operations.
 
-![Infoblox IP Search](screenshots/05-infoblox-ip-search.png)
+![Infoblox IP Search](screenshots/05-infoblox-ip-search.png.png)
 
 ---
 
@@ -102,8 +102,7 @@ The IP address was confirmed as internally owned infrastructure associated with 
 ### Findings
 Network attribution aligned with legitimate internal enterprise infrastructure and known organizational network segmentation.
 
-![Infoblox Correlation](screenshots/06-infoblox-ip-correlation.png)
-
+![Infoblox Correlation](screenshots/06-infoblox-ip-correlation.png.png)
 ---
 
 # Investigation Conclusion
