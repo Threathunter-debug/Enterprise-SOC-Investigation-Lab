@@ -74,7 +74,7 @@ No malicious endpoint activity or suspicious execution behavior was identified d
 ### Findings
 The endpoint was successfully validated within the enterprise environment with no evidence of suspicious artifacts or persistence mechanisms.
 
-![Tanium Endpoint Validation](screenshots/04-tanium-endpoint-search.png.png)
+![Tanium Endpoint Validation](screenshots/05-tanium-endpoint-search.png.png)
 
 ---
 
@@ -88,7 +88,7 @@ The endpoint was successfully validated within the enterprise environment with n
 ### Findings
 The IP address was confirmed as internally owned infrastructure associated with enterprise network operations.
 
-![Infoblox IP Search](screenshots/05-infoblox-ip-search.png.png)
+![Infoblox IP Search](screenshots/06-infoblox-ip-search.png.png)
 
 ---
 
@@ -102,7 +102,8 @@ The IP address was confirmed as internally owned infrastructure associated with 
 ### Findings
 Network attribution aligned with legitimate internal enterprise infrastructure and known organizational network segmentation.
 
-![Infoblox Correlation](screenshots/06-infoblox-ip-correlation.png.png)
+![Infoblox Correlation](screenshots/07-infoblox-network-correlation.png)
+
 ---
 
 # Investigation Conclusion
