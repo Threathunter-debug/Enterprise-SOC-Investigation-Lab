@@ -71,7 +71,6 @@ Observed authentication failure activity initially aligned with potential brute-
 ## Lessons Learned
 
 This investigation reinforced the importance of validating authentication anomalies across multiple security platforms before escalating incidents. Correlating SIEM telemetry with endpoint and network attribution data reduced false positives and improved confidence in investigative conclusions.
-## Screenshots
 
 ## Screenshots
 
