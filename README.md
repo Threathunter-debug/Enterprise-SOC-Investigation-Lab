@@ -73,14 +73,25 @@ Observed authentication failure activity initially aligned with potential brute-
 This investigation reinforced the importance of validating authentication anomalies across multiple security platforms before escalating incidents. Correlating SIEM telemetry with endpoint and network attribution data reduced false positives and improved confidence in investigative conclusions.
 ## Screenshots
 
+## Screenshots
+
 ### QRadar Offense Overview
-![QRadar](./investigation-notes/screenshots/01-qradar-offense-overview.png.png)
+![QRadar](investigation-notes/screenshots/01-qradar-offense-overview.png.png)
+
+### QRadar Event Correlation
+![QRadar Correlation](investigation-notes/screenshots/02-qradar-event-correlation.png.png)
 
 ### CrowdStrike Validation
-![CrowdStrike](./investigation-notes/screenshots/03-crowdstrike-service-account-search.png.png)
+![CrowdStrike](investigation-notes/screenshots/03-crowdstrike-service-account-search.png.png)
 
-### Infoblox Correlation
-![Infoblox](./investigation-notes/screenshots/07-infoblox-network-correlation.png)
+### Tanium Endpoint Search
+![Tanium](investigation-notes/screenshots/05-tanium-endpoint-search.png.png)
+
+### Infoblox IP Search
+![Infoblox](investigation-notes/screenshots/06-infoblox-ip-search.png.png)
+
+### Infoblox Network Correlation
+![Infoblox Correlation](investigation-notes/screenshots/07-infoblox-network-correlation.png.png)
 
 ## MITRE ATT&CK Mapping
 
