@@ -1,3 +1,35 @@
+# Enterprise SOC Investigation Lab
+
+> Enterprise SOC investigation simulating real-world authentication anomaly triage across SIEM, EDR, endpoint validation, and network attribution platforms.
+
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![Platform](https://img.shields.io/badge/Platform-Windows-blue)
+![Tools](https://img.shields.io/badge/Tools-QRadar%20%7C%20CrowdStrike%20%7C%20Tanium%20%7C%20Infoblox-success)
+
+QRadar Alert
+      ↓
+Windows Event Correlation
+      ↓
+CrowdStrike Validation
+      ↓
+Tanium Endpoint Validation
+      ↓
+Infoblox Attribution
+      ↓
+Final Determination
+
+## Final Investigation Verdict
+
+Cross-platform validation across QRadar, CrowdStrike, Tanium, and Infoblox determined the authentication anomalies were associated with legitimate internal service account validation behavior. No evidence of compromise, privilege escalation, malware execution, or lateral movement was identified.
+
+## Potential Detection Improvements
+
+- Tune authentication failure thresholds for known service accounts
+- Suppress repetitive benign NTLM validation events
+- Enhance QRadar correlation logic to reduce false positives
+- Improve service account visibility through enriched asset tagging
+
+
 ## Investigation Objective
 
 Investigate repeated authentication failures detected within QRadar SIEM to determine whether activity was associated with brute-force attacks, compromised credentials, or legitimate service account validation behavior.
